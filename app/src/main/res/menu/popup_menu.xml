@@ -17,6 +17,7 @@
                 android:title="@string/back"
                 app:showAsAction="ifRoom" />
             <item
+                android:id="@+id/set_bookmark"
                 android:icon="@drawable/ic_bookmark_hollow"
                 android:title="@string/bookmark"
                 app:showAsAction="ifRoom" />

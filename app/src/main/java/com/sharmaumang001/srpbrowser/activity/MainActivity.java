@@ -181,8 +181,6 @@ public class MainActivity extends AppCompatActivity implements TabSwitcherListen
     @NonNull
     private Toolbar.OnMenuItemClickListener createToolbarMenuListener() {
         return new Toolbar.OnMenuItemClickListener() {
-
-
             @Override
             public boolean onMenuItemClick(final MenuItem item) {
                 switch (item.getItemId()) {
@@ -240,6 +238,7 @@ public class MainActivity extends AppCompatActivity implements TabSwitcherListen
                                     }
                                 });
                         builder.create();
+                        Log.e("builder2", builder.toString());
                         builder.show().getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(getResources().getColor(R.color.colorPrimary));
                         EditText editUrl = view.findViewById(R.id.bookmarkUrl);
                         editUrl.setText(mWebView.getUrl());
