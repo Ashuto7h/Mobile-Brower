@@ -238,7 +238,6 @@ public class MainActivity extends AppCompatActivity implements TabSwitcherListen
                                     }
                                 });
                         builder.create();
-                        Log.e("builder2", builder.toString());
                         builder.show().getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(getResources().getColor(R.color.colorPrimary));
                         EditText editUrl = view.findViewById(R.id.bookmarkUrl);
                         editUrl.setText(mWebView.getUrl());
