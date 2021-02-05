@@ -51,7 +51,7 @@ git https://github.com/sharmaumang001/Mobile-Brower
 
 #### 2. Import the project in AndroidStudio, and add API Key
 1.  In Android Studio, go to File -> New -> Import project
-2.  Follew the dialog wizard to choose the folder where you cloned the project and click on open.
+2.  Follow the dialog wizard to choose the folder where you cloned the project and click on open.
 3.  Android Studio imports the projects and builds it for you
 
 ## 🧐 Code of Conduct
